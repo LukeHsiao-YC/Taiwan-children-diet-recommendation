@@ -30,7 +30,8 @@ def get_diet_recommendation(age_group, gender, activity_level):
 
 # 建立 Streamlit 應用
 st.title("台灣兒童每日飲食建議量查詢")
-("蕭宇超醫師整理製作")
+("告別雲朵人 兒童減重一起來 蕭宇超醫師整理製作")
+("資料來源：台灣國民健康署")
 age_group = st.selectbox("請選擇年齡範圍:", ["1-3", "4-6", "7-8", "9-12", "13-15", "16-18"])
 gender = st.radio("請選擇性別:", ["男", "女"])
 activity_level = st.selectbox("請選擇活動強度:", ["稍低", "適度"])
